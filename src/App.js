@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Carouserl1 from './Carousel1';
+import Navibar from './Navibar';
+import Carousel2 from './Carousel2';
+import Text1 from './Text1';
+import Blocks from './Blocks';
+import { NavItem } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navibar />
+      <Carouserl1 />
+      <Text1 />
+      <Blocks />
+      <Carousel2 />      
     </div>
   );
 }
